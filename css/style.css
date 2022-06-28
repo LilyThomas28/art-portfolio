@@ -1,8 +1,15 @@
 body {
-    background-image: url("../images/OldDesignShop_GrandpasAcctBook2.jpeg");
+    background-image: url("../images/44eb0e_787d281137e274ef0379b56f16798514.webp");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-color: pink;
-    /* font-family: ; */
+    font-family: 'Bonbon', cursive;
    }
+
+h1 {
+    color: black;
+    font-size: 45px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
