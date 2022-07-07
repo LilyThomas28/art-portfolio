@@ -14,10 +14,24 @@ h1 {
     margin-left: 70px;
 }
 
-.products {
+.pages {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* margin: 0 auto; */
+    flex-wrap: wrap;
+    text-align: center;
+    /* width: 50%;
+    height: 50%; */
+    margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .pages {
+      flex-direction: column;
+    }
+  
+    main {
+      max-width: 1200px;
+    }
   }
