@@ -14,6 +14,10 @@ h1 {
     margin-left: 70px;
 }
 
+.container {
+  margin: 10px;
+}
+
 .pages {
     display: flex;
     flex-direction: row;
@@ -21,8 +25,6 @@ h1 {
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
-    /* width: 50%;
-    height: 50%; */
 }
 
 @media screen and (max-width: 768px) {
